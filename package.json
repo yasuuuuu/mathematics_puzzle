@@ -1,0 +1,28 @@
+{
+  "name": "mathmatics_puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code",
+  "scripts": {
+    "lint": "eslint code/*.es6.js --fix"
+  },
+  "author": "yasuuuuu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
